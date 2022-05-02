@@ -13,6 +13,8 @@
 		C68C62F3281FA12F0052A4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68C62F1281FA12F0052A4EF /* Main.storyboard */; };
 		C68C62F5281FA1310052A4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68C62F4281FA1300052A4EF /* Assets.xcassets */; };
 		C68C62F8281FA1310052A4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68C62F6281FA1310052A4EF /* LaunchScreen.storyboard */; };
+		C68C6300281FA5470052A4EF /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68C62FF281FA5470052A4EF /* MyCell.swift */; };
+		C68C6302281FA5FB0052A4EF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68C6301281FA5FB0052A4EF /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C68C62F4281FA1300052A4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68C62F7281FA1310052A4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C68C62F9281FA1310052A4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68C62FF281FA5470052A4EF /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		C68C6301281FA5FB0052A4EF /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C68C62F4281FA1300052A4EF /* Assets.xcassets */,
 				C68C62F6281FA1310052A4EF /* LaunchScreen.storyboard */,
 				C68C62F9281FA1310052A4EF /* Info.plist */,
+				C68C62FF281FA5470052A4EF /* MyCell.swift */,
+				C68C6301281FA5FB0052A4EF /* UIColor+Extension.swift */,
 			);
 			path = ExScrollingAuto;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68C62F0281FA12F0052A4EF /* ViewController.swift in Sources */,
+				C68C6300281FA5470052A4EF /* MyCell.swift in Sources */,
 				C68C62EC281FA12F0052A4EF /* AppDelegate.swift in Sources */,
 				C68C62EE281FA12F0052A4EF /* SceneDelegate.swift in Sources */,
+				C68C6302281FA5FB0052A4EF /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
